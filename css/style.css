@@ -30,6 +30,29 @@ font: 12px Tahoma, sans-serif;
 	padding: 15px 15px;
 }
 
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #64616b;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
 .section-1 {
  background-image: url(/img/фон2000.png);
  background-size: cover;
@@ -47,6 +70,10 @@ font: 12px Tahoma, sans-serif;
 .section-3 {
 	width: auto;
 	height: 600px;
+}
+.section-4 {
+	width: auto;
+	height:900px;
 }
 
 .head-text {
@@ -228,6 +255,15 @@ text-decoration: none;
 	text-decoration: none;
 }
 
+.text-article {
+	position: relative;
+	top: 10px;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	color:  #64616b;;
+	font-size: 30px;
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
