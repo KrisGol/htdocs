@@ -53,6 +53,26 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
+.block-breed {
+	width: 40%;
+	height: 40%;
+	text-align: center;
+}
+
+.block-breed li a {
+	text-decoration: none;
+	font-size: 30px;
+
+}
+
+.block-ovcharka {
+	background-image: url(/img/nemeckaya-ovcharka-01.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 80%;
+}
+
+
 .section-1 {
  background-image: url(/img/фон2000.png);
  background-size: cover;
